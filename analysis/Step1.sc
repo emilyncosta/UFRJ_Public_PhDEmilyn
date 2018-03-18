@@ -1,7 +1,7 @@
 #!/usr/bin/env amm
 
 /*
-Step1 
+Step1
 
 In this step we just separate out the good genomes from the bad genomes
 
@@ -115,9 +115,6 @@ var bad_genomes = Array(
   "G04897",
   "G04958"
 )
-
-
-// TODO: mkdir good && bad
 
 
 mkdir! pwd/'good

@@ -13,12 +13,12 @@ import ammonite.ops.ImplicitWd._
 import scala.collection.mutable.ArrayBuffer
 
 
-// Array of all Genomes 
+// Array of all Genomes
 var allGenomeFolders = (ls!).toArray
 
 
 
-// 
+//
 // var genome_name = all_genomes(0).toString.split("/").last.split("-")(0)
 
 
@@ -30,7 +30,7 @@ def findUniqueGenomes(allGenomeFolders: Array[Path]): ArrayBuffer[String] = {
 
   for (folderName <- allGenomeFolders) {
 
-if( folderName.isFile == false) { 
+if( folderName.isFile == false) {
 
     var genomeName = folderName.toString.split("/").last.split("-")(0)
 
@@ -45,6 +45,8 @@ if( folderName.isFile == false) {
 }
 
 
+mkdir(pwd/up/'snippy_outputs/'all_genomes)
+
 var allGenomeNames = findUniqueGenomes(allGenomeFolders)
 
 
@@ -55,6 +57,3 @@ println(genomeName)
 cp.into(pwd/(genomeName + "-done")/(genomeName + "_analysis")/genomeName, pwd/up/'snippy_outputs/'all_genomes)
 
 }
-
-
-

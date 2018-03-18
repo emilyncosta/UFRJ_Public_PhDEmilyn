@@ -34,6 +34,7 @@ var all_files = ls.rec!
 var all_trimmed_paired_files_html = all_files.filter( (f) => is_trimmed_paired_html_?(f.toString) ).map( (f) => f.toString)
 
 
+mkdir(pwd/'fastqc_files)
 
 
 for (genomeName <- all_trimmed_paired_files_html){
