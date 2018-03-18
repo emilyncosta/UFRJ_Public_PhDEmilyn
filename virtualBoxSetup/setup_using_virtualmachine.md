@@ -9,22 +9,22 @@ screenshot
 
 - Click on `Import`
 
-![screenshot](./images/001.png)
-  ![screenshot](./images/002.png)
+![screenshot](./001.png)
+  ![screenshot](./002.png)
 Re
 ##### Tweak the settings of the virtual machine
 
 - Before starting
     - Processor
     Set it to `green` levels like so
-    ![screenshot](./images/003.png)
+    ![screenshot](./003.png)
 
     - RAM
     Set it to `green` levels like so
-  ![screenshot](./images/004.png)
+  ![screenshot](./004.png)
 - After starting
     -  Change the keyboard layout
-     ![screenshot](./images/008.png)
+     ![screenshot](./008.png)
     ```
         settings > region and language > input layout > US Keyboard
     ```
@@ -42,22 +42,22 @@ Go to the top menu,
 Devices -> Insert Guest additions CD image 
 ```
  
- ![screenshot](./images/009.png)
+ ![screenshot](./009.png)
   ![screenshot](./010.png)
    ![screenshot](./011.png)
    
 ##### Setup shared folder
 
 
-  ![screenshot](./images/005.png)
-  ![screenshot](./images/006.png)
+  ![screenshot](./005.png)
+  ![screenshot](./006.png)
  
 
 From inside the virtualbox image, run these commands in the terminal
 ```
 sudo usermod -aG vboxsf $(whoami)
 
-sudo mount -t vboxsf -o rw,uid=1images/000,gid=1images/000 BioDragon ~/Desktop/BioDragon/
+sudo mount -t vboxsf -o rw,uid=1000,gid=1000 BioDragon ~/Desktop/BioDragon/
 
 ```
 
