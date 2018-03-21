@@ -1,0 +1,4 @@
+video2.mp4 filter=lfs diff=lfs merge=lfs -text
+video3.mp4 filter=lfs diff=lfs merge=lfs -text
+convert_all_videos.sh filter=lfs diff=lfs merge=lfs -text
+video1.mp4 filter=lfs diff=lfs merge=lfs -text
