@@ -8,3 +8,9 @@ https://www.techrepublic.com/article/how-to-run-virtualbox-virtual-machines-from
 converting the image to vbox image 
 
 https://github.com/crohr/ebarnouflant/issues/7
+
+
+https://stackoverflow.com/questions/20679054/how-to-export-a-vagrant-virtual-machine-to-transfer-it
+
+https://download.virtualbox.org/virtualbox/SDKRef.pdf
+
