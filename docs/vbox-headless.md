@@ -14,3 +14,6 @@ https://stackoverflow.com/questions/20679054/how-to-export-a-vagrant-virtual-mac
 
 https://download.virtualbox.org/virtualbox/SDKRef.pdf
 
+
+
+https://github.com/dotless-de/vagrant-vbguest
