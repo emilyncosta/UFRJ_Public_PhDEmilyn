@@ -17,3 +17,6 @@
    -> Golang
 
 - Drive the virtualbox image headless and publish the image on vagrant hub
+
+- Convert the OVA image from Dr. Joao to a Vagrant Box
+
