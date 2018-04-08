@@ -23,3 +23,8 @@ https://github.com/garethr/vagrantboxes-heroku
 
 
 https://app.vagrantup.com/
+
+
+We can host the box on hubic!! 
+
+http://www.vagrantbox.es/
