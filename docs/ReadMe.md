@@ -1,22 +1,23 @@
 ## ToDos 
 
-- Link all relevant videos / sites 
+[ ] Convert the OVA image from Dr. Joao to a Vagrant Box
 
-- Write the usage introduction for the scripts using AsciidoctorFX
+[ ] Link all relevant videos / sites 
 
-- Upload the virtualbox image to public hosting site
+[ ] Write the usage introduction for the scripts using AsciidoctorFX
 
-- First preference is for 
-   -> ammonite scripts and nextflow
+[ ] Upload the virtualbox image to public hosting site
 
-- Convert/chunk the script to 
-   -> ammonite script 
-   -> jRuby
-   -> NextFlow
-   -> Powershell
-   -> Golang
+[ ] First preference is for 
+   - ammonite scripts and nextflow
 
-- Drive the virtualbox image headless and publish the image on vagrant hub
+[ ] Convert/chunk the script to 
+   - ammonite script 
+   - jRuby
+   - NextFlow
+   - Powershell
+   - Golang
 
-- Convert the OVA image from Dr. Joao to a Vagrant Box
+[ ] Drive the virtualbox image headless and publish the image on vagrant hub
+
 
